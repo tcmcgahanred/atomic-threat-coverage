@@ -32,7 +32,7 @@ detection:
     selection:
         EventID: 13
         # usrclass.dat is mounted on HKU\USERSID_Classes\...
-        TargetObject: 'HKU\\*_Classes\exefile\shell\runas\command\isolatedCommand'
+        TargetObject: 'HKCU\\*_Classes\exefile\shell\runas\command\isolatedCommand'
     condition: selection
 tags:
     - attack.defense_evasion
